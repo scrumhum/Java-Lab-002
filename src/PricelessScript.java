@@ -28,9 +28,10 @@ public class PricelessScript {
                 String.format(scriptTemplateLine1, people,
                         formatter.format(people * ticketPrice)));
 
-        System.out.println(
-                String.format(scriptTemplateLine2, people, people, people,
-                        formatter.format(people * itemPrice)));
+        // Example of using printf and platform specific line separator "%n" to
+        // format instead of String.format
+        System.out.printf((scriptTemplateLine2) + "%n", people, people, people,
+                formatter.format(people * itemPrice));
 
         itemPrice = 45.0;
         System.out.println(

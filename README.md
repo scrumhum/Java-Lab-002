@@ -40,8 +40,7 @@ The data type for tickets, hotdogs n popcorn is an integer that I can assign dif
 
 Redundant call to format on line 28, 38, 41.
 Used debugger and it doesn't show any errors. 
-Can't assign a double to int because it makes it less accurate.
-
+Can't assign a double to int because it makes it less accurate. When we cpnvert the double value with decimal digits to int value, the decimal digits are truncated. 
 
 ***
 ### Part 3 - Bonus: Play around with Java String Format Specifiers.

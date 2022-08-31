@@ -33,7 +33,17 @@ Take note of the various variables and their data types. Write a brief summary i
 
 Next give TWO example variable names and TWO example variable assignments that are *WRONG* and explain why.
 * Hint: your IDE can help you discover these!
+***
+Variable names- String- tickets, hotdogs, popcorn, sodas etc
 
+The data type for tickets, hotdogs n popcorn is an integer that I can assign different values depending on how many people are purchasing tickets. Say I assign tickets a value of 4, it would output the cost to 56.
+
+Redundant call to format on line 28, 38, 41.
+Used debugger and it doesn't show any errors. 
+Can't assign a double to int because it makes it less accurate.
+
+
+***
 ### Part 3 - Bonus: Play around with Java String Format Specifiers.
 
 Pick several of the Java format specifiers below and define variables of the correct type utilize *sout* and *String.format* to view the resulting formats.
